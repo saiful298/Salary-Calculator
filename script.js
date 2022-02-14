@@ -21,3 +21,10 @@ function saving() {
     const balancePrice = parseFloat(document.getElementById('income-put').value);
     const balance = parseFloat(document.getElementById('balanceInput').value);
 
+    var totalSave = percentage(balancePrice, saving);
+    var remaining = parseFloat(balance - totalSave);
+    document.getElementById('saving-amount').innerText = totalSave;
+    document.getElementById('remaining-balance').innerText = remaining;
+
+
+}
