@@ -16,6 +16,7 @@ function callFunction(data) {
 
 };
 
+
 function saving() {
     const saving = document.getElementById('put-saving-parsnt').value;
     const balancePrice = parseFloat(document.getElementById('income-put').value);
@@ -28,3 +29,5 @@ function saving() {
 
 
 }
+
+function percentage(totalBalance, saving) {
