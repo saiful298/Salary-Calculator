@@ -31,3 +31,6 @@ function saving() {
 }
 
 function percentage(totalBalance, saving) {
+    var totalSave = (parseFloat(totalBalance) * parseFloat(saving)) / 100;
+    return parseFloat(totalSave)
+};
