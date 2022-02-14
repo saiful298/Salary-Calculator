@@ -15,3 +15,9 @@ function callFunction(data) {
     }
 
 };
+
+function saving() {
+    const saving = document.getElementById('put-saving-parsnt').value;
+    const balancePrice = parseFloat(document.getElementById('income-put').value);
+    const balance = parseFloat(document.getElementById('balanceInput').value);
+
